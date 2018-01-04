@@ -185,7 +185,7 @@
   .node-cluster-content {
     background: @gray-darker;
     border: 2px solid lighten(@gray-darker,8%);
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
     .clear();
   }
   .node-cluster-content:empty {
@@ -200,9 +200,10 @@
       font-size: 12px;
     }
     .name{
+
       .status();
-      font-size: 22px;
-      line-height: 30px;
+      font-size: 12px;
+      /*line-height: 30px;*/
       &:before{
         width: 12px;
         height: 12px;
